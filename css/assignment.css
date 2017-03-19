@@ -1,0 +1,33 @@
+      .html5logo {
+        width: 165px;
+        height: 64px;
+      }
+      section > section > section { 
+        margin-left: 25px; 
+      }
+      dl.htmlelements {
+        display: block;
+        width: 900px;
+	text-align: left;
+	text-justify: auto;
+        margin-left: 50px;
+      }
+      dl.htmlelements > dt {
+        display: inline-block;
+        margin-left: 0px;
+        width: 125px;
+        font-weight: bold;
+      }
+      dl.htmlelements > dd {
+        width: 300px;
+        overflow: hidden;
+        display: inline-block;
+        margin-left: 0px;
+        font-weight: normal;
+      }
+      dl.htmlelements > code::before {
+        content: "\003C";
+      }
+      dl.htmlelements > code::after {
+        content: "\003E";
+      }

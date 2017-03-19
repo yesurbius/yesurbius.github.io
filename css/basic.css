@@ -1,0 +1,132 @@
+/* Semantic Styling */
+h1 {
+	color: blue;
+}
+
+nav {
+	padding: 5px;
+	background-color: rgb(225,225,225);
+	border-top-color: blue;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-color: blue;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+article {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+section {
+	border-top-color: gray
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+section > header {
+        font-weight: bold;
+}
+
+body > footer {
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 5px;
+	padding-top: 15px;
+	border-top-color: blue;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+/* Lists and Figures */
+table {
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	border-spacing: 0px;
+	border-collapse: separate;
+}
+
+th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgb(200,200,200);
+}
+
+td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+td, th {
+	border-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+}
+
+th, td {
+	border-left-style: solid;
+	border-left-color: grey;
+	vertical-align: top;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+ol > li {
+	padding-top: 10px;
+}
+
+/* Specific Element Styling */
+code {
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: rgb(225,225,225);
+	font-weight: bold;
+	font-family: "Courier";
+	font-size: 10pt;
+}
+blockquote {
+	font-style: italic;
+	width: 500px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+}
+
+blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 36pt;
+	position: absolute;
+	left: -30px;
+	top: -20px;
+	color: #7a7a7a;
+}
+
+blockquote:after {
+	display: block;
+	content: "\201D";
+	font-size: 36pt;
+	position: absolute;
+	left: 500px;
+	top: -20px;
+	color: #7a7a7a;
+}
+
+blockquote cite {
+	position: relative;
+	top: -10pt;
+	left: 36pt;
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
